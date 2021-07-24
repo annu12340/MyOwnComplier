@@ -28,7 +28,7 @@ class Tokenizer():
         self.lexer.add('OPEN_PAREN', r'\(')
         self.lexer.add('CLOSE_PAREN', r'\)')
 
-        self.lexer.add('DISPLAY_STMT', r'print')
+        self.lexer.add('PRINT', r'print')
         self.lexer.add('SEMI_COLON', r'\;')
 
 
