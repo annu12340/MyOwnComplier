@@ -1,13 +1,7 @@
 # MyOwnComplier
 
- * Most compilers break down into three primary stages: Parsing, Transformation,
- * and Code Generation
- *
- * 1. *Parsing* is taking raw code and turning it into a more abstract
- *    representation of the code.
- *
- * 2. *Transformation* takes this abstract representation and manipulates to do
- *    whatever the compiler wants it to.
- *
- * 3. *Code Generation* takes the transformed representation of the code and
- *    turns it into new code.
+ Compliers have 3 main stages : Parsing, Transformation, and Code Generation
+ 
+1. Parsing -> Set up our vocabulary : tokenising the input and generating a grammer using parse tree 
+2. Transformation -> generate a syntax tree
+3. Code Generation -> actual low level code generation
